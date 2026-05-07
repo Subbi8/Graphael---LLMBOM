@@ -1,0 +1,22 @@
+{
+  "total_packages": 0,
+  "processed_packages": 0,
+  "skipped_packages": 0,
+  "malware_packages_excluded": 0,
+  "error_packages": 0,
+  "improvements": 0,
+  "vdb_fix_version_used": 0,
+  "vdb_description_used": 0,
+  "github_advisory_queries": 0,
+  "nvd_queries": 0,
+  "beta_versions_excluded": 0,
+  "configuration": {
+    "input_file": "test_with_exploits.json",
+    "first_optimal_file": "first_optimal_test.json",
+    "output_file": "output_test.json",
+    "max_iterations": 10,
+    "github_validation_enabled": false,
+    "exploit_detection_enabled": true
+  },
+  "exploit_fix_count": 0
+}

@@ -1,0 +1,16 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-04-30 00:07:09",
+    "total_packages_analyzed": 0,
+    "description": "Detailed recursive CVE optimization report, including all version hops, new CVEs found per hop, resolved CVEs, and GitHub validation status for each package.",
+    "configuration_at_runtime": {
+      "input_file": "test_with_exploits.json",
+      "first_optimal_file": "first_optimal_test.json",
+      "output_file": "output_test.json",
+      "max_iterations": 10,
+      "github_validation_enabled": false,
+      "exploit_detection_enabled": true
+    }
+  },
+  "package_optimizations": {}
+}

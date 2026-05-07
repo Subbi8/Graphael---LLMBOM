@@ -1,0 +1,49 @@
+[tool.ruff]
+exclude = [
+    ".git",
+    "__pycache__",
+    ".vscode",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".tox",
+    ".venv",
+    ".vs-kubernetes",
+    "tests",
+    "references",
+]
+line-length = 99
+indent-width = 4
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]
+ignore = []
+fixable = ["ALL"]
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = false
+docstring-code-line-length = "dynamic"
+
+[tool.bandit]
+exclude_dirs = [
+    ".git",
+    "__pycache__",
+    ".vscode",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".tox",
+    ".venv",
+    ".vs-kubernetes",
+    "tests",
+    "references",
+    "alembic",
+    "build",
+    "dist",
+    "scripts",
+]
+skips = ["B104", "B113"]

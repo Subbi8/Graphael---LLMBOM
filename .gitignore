@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local editor state
+.vscode/
+.idea/
+
+# Generated LLMBOM/CVE outputs
+*_outputs_*/
+pipeline_test_outputs*/
+llmbom_output*.json
+sbom_output*.json
+cve_input*.json
+cve_output*.json
+output.json
+test_output.json
+*_output.json
+*_outputs.json
+
+# Gauntlet generated results/cache
+gauntlet-sbom-universal-generator/result/
+gauntlet-sbom-universal-generator/.ruff_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
