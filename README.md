@@ -1,6 +1,6 @@
 # TOOL DOCUMENTATION
 
-# Graphale: Static AI/ML Supply-Chain Intelligence Tool
+# Graphael: Static AI/ML Supply-Chain Intelligence Tool
 
 ## 1. Description
 
